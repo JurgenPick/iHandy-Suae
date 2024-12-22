@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">iHandy</string>
+    <string name="empty_string" />
+    <string name="dash_string">-</string>
+
+    <!-- Common Text -->
+    <string name="common_result_title">Result</string>
+    <string name="common_ok_text">OK</string>
+    <string name="common_ng_text">NG</string>
+    <string name="common_shipment_lot_table_title">Shipment Lot</string>
+    <string name="common_coil_no_table_title">Coli No.</string>
+    <string name="common_supplier_no_title">Supplier No.</string>
+    <string name="common_yyrrcct_title">YYRRCCT</string>
+    <string name="common_status_table_title">Status</string>
+    <string name="common_dock_table_title">Dock</string>
+    <string name="common_width_title">Width</string>
+    <string name="common_empty_fill_shipment_lot_warning_msg">กรุณากรอก Shipment Lot</string>
+    <string name="common_empty_fill_coil_number_warning_msg">กรุณากรอก Coil No.</string>
+    <string name="common_duplicate_coil_number_warning_msg">คุณสแกน Coil ลูกนี้แล้ว</string>
+    <string name="common_error_type_warning_msg">กรอกได้เพียงตัวเลขเท่านั้น</string>
+
+    <!-- Common Button -->
+    <string name="common_send_button">Send</string>
+    <string name="common_clear_button">Clear</string>
+    <string name="common_clear_all_button">Clear All</string>
+    <string name="common_continue_button">Continue</string>
+    <string name="common_ok_button">OK</string>
+    <string name="common_cancel_button">Cancel</string>
+    <string name="common_open_web_view_button">Open WebView</string>
+
+    <!-- Common Dialog -->
+    <string name="common_dialog_clear_all_title">ต้องการลบข้อมูลทั้งหมดหรือไม่</string>
+    <string name="common_dialog_sent_completed_title">Sent Completed</string>
+    <string name="common_dialog_error_title">Error</string>
+    <string name="common_dialog_warning_title">Warning</string>
+
+    <!-- Login -->
+    <string name="login_user_id_title">User ID</string>
+    <string name="login_password_title">Password</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_empty_fill_username_warning_msg">Please Fill Username</string>
+    <string name="login_empty_fill_password_warning_msg">Please Fill Password</string>
+
+    <!-- Main -->
+    <string name="main_app_bar_title">User : %s IP : %s</string>
+
+    <!-- Menu -->
+    <string name="menu_yard_entry_title">Yard Entry</string>
+    <string name="menu_inventory_taking_title">Inventory Taking</string>
+    <string name="menu_validate_title">Validate</string>
+    <string name="menu_relabel_title">Re-Label</string>
+    <string name="menu_charge_relo_title">Charging &amp; Relocation</string>
+    <string name="menu_cv_loading_title">CV Loading</string>
+    <string name="menu_del_check_title">Delivery Check</string>
+    <string name="menu_crfh_receive_title">CRFH Receive</string>
+    <string name="menu_rcl_tolling_title">RCL Tolling</string>
+    <string name="menu_ship_by_product_title">Ship By Product</string>
+    <string name="menu_pc_shipping_title">PC Shipping</string>
+    <string name="menu_shipping_plant_1_title">Shipping(P1) Operation</string>
+    <string name="menu_shipping_plant_2_title">Yard Plant 2</string>
+
+
+
+    <!-- Home -->
+    <string name="home_user_role_packing_title">Packing Operation</string>
+    <string name="home_user_role_shipping_title">Shipping Operation</string>
+    <string name="home_user_role_production_title">Production Operation</string>
+    <string name="home_user_role_hot_coil_title">HC Operation</string>
+    <string name="home_user_role_test_lab_title">TestLab Operation</string>
+    <string name="home_user_role_admin_title">Admin Operation</string>
+
+    <!-- Charging & Relocation -->
+    <string name="charge_relo_menu_title">Yard Entry</string>
+    <string name="charge_relo_coil_no_title">Coil no.</string>
+    <string name="charge_relo_yyrrcct_title">YYRRCCT</string>
+
+    <string name="charge_relo_display_coil_no_title">Coil no.</string>
+    <string name="charge_relo_display_yyrrcct_title">YYRRCCT</string>
+
+    <!-- Ship By Product   -->
+    <string name="ship_by_pro_menu_title">Ship By-Product</string>
+    <string name="ship_by_pro_sum_weight_title">Sum Wt.</string>
+    <string name="ship_by_pro_coil_weight_title">Coil Wt.</string>
+    <string name="ship_by_product_digit_shipment_lot_warning_msg">Shipment Lot ต้องมี 9 หรือ 10 ดิจิท</string>
+    <string name="ship_by_pro_list_coil_empty">ไม่มี Coil ใน list แล้ว</string>
+    <string name="ship_by_pro_delete_coil">คุณต้องการลบ Coil ออกจาก List?</string>
+    <string name="ship_by_pro_count_coil">Count : %s</string>
+
+    <!-- Shipping   -->
+    <string name="shipping_plant_2_title">P2</string>
+    <string name="shipping_truck_title">Truck</string>
+    <string name="shipping_truck_not_match_warning_msg">Truck No ไม่ตรงกับ Shipment Lot</string>
+    <string name="shipping_empty_truck_warning_msg">กรุณากรอก Truck No</string>
+    <string name="pc_shipping_digit_coil_number_warning_msg">Coil No มีน้อยกว่า 8 ดิจิท</string>
+    <string name="pc_shipping_digit_shipment_lot_warning_msg">Shipment Lot ต้องมี 7 ดิจิท</string>
+    <string name="pc_shipping_empty_width_warning_msg">Shipment Lot ต้องมี 7 ดิจิท</string>
+    <string name="pc_shipping_shipment_click_warning_msg">กรุณากด Confirm Shipment Lot</string>
+
+
+
+
+
+
+
+    <!-- Yard Entry -->
+    <string name="yard_entry_error_empty_coil">กรุณากรอก Coil No.</string>
+    <string name="yard_entry_error_empty_supplier">กรุณากรอก Supplier No.</string>
+    <string name="yard_entry_error_empty_yard">กรุณากรอก Yard</string>
+    <string name="yard_entry_error_format_yard">กรุณากรอก Yard ให้ถูกต้อง</string>
+    <string name="yard_entry_error_hc_discharge">กรุณากรอก ใช้ HC Discharge</string>
+    <string name="yard_entry_error_e001">ไม่พบข้อมูล Coil</string>
+    <string name="yard_entry_error_e002">Coil {ScannedCoil} ถูกทำ CV Loading แล้ว,กรุณาใช้หน้าจอ EES04 ทำการ Cancel ก่อน</string>
+    <string name="yard_entry_error_e003">กรุณาใช้ function HC discharge ในการย้ายตำแหน่งไปยัง CDCM Entry</string>
+    <string name="yard_entry_error_e004">ไม่พบข้อมูล Yard</string>
+    <string name="yard_entry_error_e005">กรุณา Scan Coil/Supplier และ Yard ในการ Update Yard ก่อนกด Send</string>
+    <string name="yard_entry_error_e006">ไม่สามารถ Update ข้อมูลได้ (MQ error)</string>
+    <string name="yard_entry_error_e007">ไม่สามารถ Update ข้อมูลได้ (Check Result)</string>
+
+    <!-- CV Loading -->
+    <string name="cv_loading_menu_title">CV Loading</string>
+    <string name="cv_loading_coil_no_title">Coil no.</string>
+    <string name="cv_loading_lcs_title">LC S</string>
+    <string name="cv_loading_supplier_no_title">Supplier No.</string>
+    <string name="cv_loading_display_resd_title">RESD</string>
+    <string name="cv_loading_display_hc_days_title">HC(Days)</string>
+    <string name="cv_loading_display_status_title">Status</string>
+
+    <!-- Delivery Check -->
+    <string name="del_check_menu_title">Delivery Check</string>
+
+
+    <!-- CRFH Receive -->
+    <string name="crfh_receive_menu_title">CRFH Receive</string>
+    <string name="crfh_receive_coil_no_title">Coil No.</string>
+    <string name="crfh_receive_supplier_no_title">Supplier No.</string>
+    <string name="crfh_receive_yyrrcct_title">YYRRCCT</string>
+    <string name="crfh_receive_status_title">Status</string>
+
+    <!-- RCL Tolling -->
+    <string name="rcl_tolling_cancel_return_title">CANCEL/RETURN</string>
+    <string name="rcl_tolling_yyrrcct_title">YYRRCCT</string>
+
+
+    <!-- Validate-->
+    <string name="validate_menu_title">Validate HT</string>
+    <string name="validate_no_title_1">1</string>
+    <string name="validate_no_title_2">2</string>
+    <string name="validate_no_title_3">3</string>
+    <string name="validate_result_title">Result</string>
+    <string name="validate_check_btn">Check</string>
+
+    <!-- ReLabel-->
+    <string name="relabel_menu_title">Re-Label</string>
+    <string name="relabel_no_title_1">Label1 (Old)</string>
+    <string name="relabel_no_title_2">Label2 (New)</string>
+    <string name="relabel_display_status_title">Status</string>
+    <string name="relabel_display_yyrrcct_title">YYRRCCT</string>
+
+    <!-- Inventory Taking -->
+    <string name="inv_taking_menu_title">Inventory Taking</string>
+    <string name="inv_taking_yyrrcc_title">YYRRCCSS</string>
+    <string name="inv_taking_supplier_no_title">Supplier no.</string>
+    <string name="inv_taking_display_lasted_coil_title">Lasted coil</string>
+
+
+</resources>
